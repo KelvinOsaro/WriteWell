@@ -1,0 +1,133 @@
+
+/* Style for header */
+header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  /* Style for main content */
+  .container {
+    margin-top: 20px;
+  }
+  .product-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/beautifpen.avif'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header {
+    background-color: rgba(255, 0, 0, 0.315);
+    color: #181616;
+    text-align: center;
+    padding:  0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    color: #181616;
+  }
+  
+  .article {
+    background-color:rgb(133, 49, 133);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #f8f9fa;
+    box-shadow: 0 0 5px rgba(182, 28, 28, 0.842);
+  }
+  
+  h1, h2 {
+    margin-top: 0;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+  
+  .social-media {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+  }
+  nav ul {
+    list-style: none;
+    background-color: #333;
+    margin: 0;
+    padding: 5px;
+    position: relative;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .add-to-cart {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #631c1c;
+    color: rgb(34, 25, 25);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #555;
+  }
+  
+  .add-to-cart.clicked {
+    background-color: green;
+  }
+  .scroll-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .service-options {
+    display: none;
+  }
+  
+  /* Show services on hover */
+  .service-options {
+    display: block;
+  }
+      

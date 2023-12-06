@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Make your Payment</title>
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="Pen.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Pen.html">HOME</a></li>
+                <li><a href="aboutme.html">ABOUT</a></li>
+                <li><a href="contactpen.html">CONTACT</a></li>
+                <li><a href="payment.html">CART</a></li>
+                <ul class="service-options">
+                <li><a href="https://www.etsy.com/ca/market/feather_pen">Queens</a></li>
+                <li><a href="https://wonderpens.ca/blogs/pens-and-things/wonder-pens-exclusive-edison-beaumont-golden-skies">Kings</a></li>
+                <li><a href="https://www.penheaven.com/pens-by-type/feather-quills-dip-pens">Special Ones</a></li>
+                
+              </ul>
+           </li>
+        
+        
+                </ul>
+              </li>
+            </ul>
+          </nav>
+      </header>
+
+
+  <!-- Payment Section -->
+  <div class="container">
+    <h1>Payment Page</h1>
+    <form id="paymentForm">
+      <div class="form-group">
+        <label for="amount">Enter Amount ($)</label>
+        <input type="number" class="form-control" id="amount" placeholder="Enter the amount" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Pay Now</button>
+    </form>
+    <div id="thankYou" style="display: none;">
+      <h2>Thank You for Your Payment!</h2>
+      <p>We have received your payment of <span id="paidAmount"></span>.</p>
+    </div>
+  </div>
+
+  <!-- Custom JavaScript -->
+  <script src="scripts.js"></script>
+</body>
+</html>
